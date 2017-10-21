@@ -1,0 +1,151 @@
+.header {
+    .bgimage {
+        width: 100%;
+        height: 100%;
+        position: absolute;
+    }
+    .head {
+        padding: 30px 0px;
+        .maintitle {
+            p {
+                font-size: 24pt;
+                color: white;
+                font-weight: bold;
+            }
+        }
+        .menu {
+            ul {
+                list-style: none;
+                li {
+                    padding: 0px 15px;
+                    font-size: 18pt;
+                    display: inline-block;
+                    a {
+                        text-decoration: none;
+                        color: white;
+                    }
+                }
+            }
+        }
+        .social {
+            ul {
+                list-style: none;
+                li {
+                    display: inline-block;
+                    i {
+                        font-size: 24pt;
+                        padding: 0px 15px;
+                        color: white;
+                    }
+                }
+            }
+        }
+    }
+    .HomeAbout {
+        img {
+            height: 80%;
+        }
+        p {
+            color: white
+        }
+        .aboutAppYuxari {
+            font-size: 40pt;
+        }
+        .aboutAppAwaqi {
+            font-size: 18pt;
+        }
+        ul {
+            line-height: 111px;
+            list-style: none;
+            li {
+                padding-right: 10px;
+                display: inline-block;
+                a {
+                    text-decoration: none;
+                    border: 1px solid #4466c9;
+                    color: white;
+                    padding: 12px 32px;
+                    background-color: #4466c9;
+                    border-radius: 3px;
+                    transition: 0.2s ease;
+                    &:hover {
+                        background-color: #fc6a42;
+                        border-color: #fc6a42;
+                        transition: 0.2s ease;
+                    }
+                }
+            }
+        }
+        .phoneAbout {
+            position: relative;
+           
+        } 
+        span {
+            position: absolute;
+            border-radius: 50%;
+            font-size: 18pt;
+            color: white;
+        }
+        .Sunny { 
+            width: 90px;
+            height: 90px;
+            line-height: 90px;
+            border: 1px solid #fc6a42;
+            background-color: #fc6a42;
+            bottom: 44%;
+            left: 12%;
+        }
+        .london {
+            border: 1px solid #4466c9;
+            background-color: #4466c9;
+            top: 35%;
+            right: 8%;
+            width: 117px;
+            height: 108px;
+            line-height: 108px;
+        }
+        .rio {
+            color: #6e92f5;
+            width: 65px;
+            height: 65px;
+            line-height: 65px;
+            border: 1px solid #fcec64;
+            background-color: #fcec64;
+            bottom: 15%;
+            right: 16%;
+        }
+        .nine {
+            color: #6e92f5;
+            width: 50px;
+            height: 50px;
+            line-height: 50px;
+            border: 1px solid white;
+            background-color: white;
+            top: 9%;
+            right: 22%;
+            &::before{
+                content: "";
+                position: absolute;
+                top: 19%;
+                left: 60%;
+                border: 2px solid blue;
+                color: white;
+                font-size: 10px;
+                border-radius: 50%;
+            }
+        }
+        i {
+            position: absolute;
+            border: 1px solid white;
+            background-color: white;
+            border-radius: 50%;
+            font-size: 18pt;
+            bottom: 2%;
+            left: 10%;
+            width: 50px;
+            height: 50px;
+            line-height: 50px;
+            color: #fc6a42;
+        }
+    }
+}

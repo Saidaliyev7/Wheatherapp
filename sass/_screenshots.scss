@@ -1,0 +1,69 @@
+.screenshots{
+    .screen {
+        padding: 100px 0px;
+        .image {
+            img {
+                position: relative;
+            }
+            span {
+                position: absolute;
+                border-radius: 50%;
+                font-size: 18pt;
+                color: white;
+            }
+            .cloudy {
+                background-color: #fcec64;
+                width: 100px;
+                height: 100px;
+                line-height: 100px;
+                text-align: center;
+                top: 27%;
+                right: 27%;
+            }
+            .number {
+                
+                background-color: #6ca3ff;
+                width: 100px;
+                height: 100px;
+                line-height: 100px;
+                text-align: center;
+                bottom: 20%;
+                left: -10%;
+            }
+            .sunny {
+                background-color: #f2a14e;
+                right: 10%;
+            }
+            .thirty {
+              background-color: #fc6a42;
+              left: 8%;
+            }
+            .rainy {
+                background-color: #b8faee;
+                color: #8da9aa;
+            }
+            .nine {
+                background-color: #7693c8;
+            }
+        }
+        
+        .content {
+           img {
+            padding: 65px 20px;
+           } 
+           h1 {
+            font-size: 36pt;
+            font-weight: 600;
+            color: #648cff;
+        }
+        p {
+            font-size: 24pt;
+        }
+       
+        .ikonlar {
+            padding: 40px 20px;
+        }
+        }
+       
+    }
+}

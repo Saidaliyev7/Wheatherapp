@@ -1,0 +1,9 @@
+body {
+    font-family: 'Ubuntu', sans-serif;
+   background-image: url(../img/bodyBg/BG.png);
+}
+
+@import 'header';
+@import 'features';
+@import 'widgets';
+@import 'screenshots';
