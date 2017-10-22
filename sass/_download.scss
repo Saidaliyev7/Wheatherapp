@@ -1,0 +1,17 @@
+.download {
+    background-image: url(../img/download/bg.png);
+    background-size: cover;
+    .downloadapp {
+        padding: 100px 0px;
+        h1 {
+            color: #ffffff;
+            padding-bottom: 30px;
+            font-size: 31pt;
+            font-weight: bold;
+        }
+        p {
+            font-size: 14pt;
+            color: #ffffff;
+        }
+    }
+}

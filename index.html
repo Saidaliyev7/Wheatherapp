@@ -8,13 +8,15 @@
     <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Ubuntu" rel="stylesheet">
     <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/owl.theme.default.min.css">
     <link rel="stylesheet" href="css/index.css">
     <link rel="stylesheet" href="css/style.css">
 </head>
 
 <body>
-    <header class="header">
-        <img class="bgimage" src="img/header/bg.png" alt="">
+    <header class="header" id="Home">
+        <div class="parallax-window" data-parallax="scroll" data-image-src="img/header/bg.png" style="width:100% ;height:100%; position:absolute; "></div>
         <div class="head">
             <div class="container">
                 <div class="row">
@@ -24,16 +26,16 @@
                     <div class="col-md-6 menu">
                         <ul>
                             <li>
-                                <a href="#">Home</a>
+                                <a href="#Home">Home</a>
                             </li>
                             <li>
-                                <a href="#">Features</a>
+                                <a href="#Features">Features</a>
                             </li>
                             <li>
-                                <a href="#">Reviews</a>
+                                <a href="#Reviews">Reviews</a>
                             </li>
                             <li>
-                                <a href="#">Download</a>
+                                <a href="#Download">Download</a>
                             </li>
                         </ul>
                     </div>
@@ -56,19 +58,21 @@
         <div class="HomeAbout">
             <div class="container">
                 <div class="row">
-                    <div class="col-md-5">
-                        <p class="aboutAppYuxari">Get the most fun weather app</p>
-                        <p class="aboutAppAwaqi">Simple,nice and user-friendly application of the weather. Only useful information</p>
-                        <ul>
-                            <li>
-                                <a href="#">Download</a>
-                            </li>
-                            <li>
-                                <a href="#">Features</a>
-                            </li>
-                        </ul>
+                    <div class="col-md-5 col-sm-12">
+                        <div class="haqqinda">
+                            <h1>Get the most fun weather app</h1>
+                            <p>Simple,nice and user-friendly application of the weather. Only useful information</p>
+                            <ul>
+                                <li>
+                                    <a href="#">Download</a>
+                                </li>
+                                <li>
+                                    <a href="#">Features</a>
+                                </li>
+                            </ul>
+                        </div>
                     </div>
-                    <div class="col-md-7 text-center">
+                    <div class="col-md-7 col-sm-12 text-center">
 
                         <img class="phoneAbout" src="img/header/phone.png" alt="">
                         <span class="Sunny">Sunny</span>
@@ -83,7 +87,7 @@
         </div>
     </header>
 
-    <section class="Features">
+    <section class="Features" id="Features">
         <div class="container">
             <div class="row">
                 <div class="col-md-12 text-center">
@@ -95,13 +99,13 @@
                 </div>
             </div>
             <div class="row">
-                <div class="col-md-4">
+                <div class="col-md-4 col-sm-6">
                     <div class="content">
                         <div class="row">
-                            <div class="col-md-4">
+                            <div class="col-md-4 col-sm-12">
                                 <img src="img/features/icon1.png" alt="">
                             </div>
-                            <div class="col-md-8">
+                            <div class="col-md-8 col-sm-12">
                                 <h3>Usability </h3>
                                 <p>Sometimes the simplest things are the hardest to find. So we created a new line for everyday
                                     life
@@ -111,13 +115,13 @@
 
                     </div>
                 </div>
-                <div class="col-md-4">
+                <div class="col-md-4 col-sm-6">
                     <div class="content">
                         <div class="row">
-                            <div class="col-md-4">
+                            <div class="col-md-4 col-sm-12">
                                 <img src="img/features/icon2.png" alt="">
                             </div>
-                            <div class="col-md-8">
+                            <div class="col-md-8 col-sm-12">
                                 <h3>Parallax Effect</h3>
                                 <p>Sometimes the simplest things are the hardest to find. So we created a new line for everyday
                                     life
@@ -127,13 +131,13 @@
 
                     </div>
                 </div>
-                <div class="col-md-4">
+                <div class="col-md-4 col-sm-6">
                     <div class="content">
                         <div class="row">
-                            <div class="col-md-4">
+                            <div class="col-md-4 col-sm-12">
                                 <img src="img/features/icon3.png" alt="">
                             </div>
-                            <div class="col-md-8">
+                            <div class="col-md-8 col-sm-12">
                                 <h3>Unlimites Colors</h3>
                                 <p>Sometimes the simplest things are the hardest to find. So we created a new line for everyday
                                     life
@@ -156,18 +160,18 @@
             </div>
             <div class="row">
                 <div class="col-md-12">
-                    <!-- <div class="karusel">
+                    <div class="owl-carousel">
                         <div>
                             <img src="img/karusel/imageleft.png" alt="">
                         </div>
                         <div>
-                                <img src="img/karusel/imagecenter.png" alt="">
+                                <img src="img/karusel/imageleft.png" alt="">
                         </div>
                         <div>
-                                <img src="img/karusel/imageright.png" alt="">
+                                <img src="img/karusel/imageleft.png" alt="">
                         </div>
                         
-                    </div> -->
+                    </div>
                 </div>
             </div>
         </div>
@@ -175,16 +179,23 @@
 
     <section class="screenshots">
         <div class="container">
+            <div class="row">
+                <div class="col-md-12 text-center">
+                    <div class="main">
+                        <h1>SCREENSHOTS</h1>
+                        <p>The brightest images</p>
+                    </div>
+                </div>
+            </div>
             <div class="screen">
                 <div class="row">
 
-                    <div class="col-md-5 image">
-                        <img src="img/screenshot/SCREEN.png" alt="">
-                        <span class="cloudy">Cloudy</span>
-                        <span class="number">15</span>
-
+                    <div class="col-md-5 col-sm-12 image">
+                        <div class="cloud">
+                            <img class="cloud" src="img/screenshot/SCREEN.png" alt="">
+                        </div>
                     </div>
-                    <div class="col-md-7 content">
+                    <div class="col-md-7  col-sm-12 content">
                         <img src="img/screenshot/icon1.png" alt="">
                         <h1>WHEN THE CLOUDS</h1>
                         <p>Variable information on the air humidity, the feeling of the weather and the ability to share this
@@ -196,29 +207,30 @@
             <div class="screen">
                 <div class="row">
 
-                    <div class="col-md-7 content">
+                    <div class="col-md-7 col-sm-12 content">
                         <img src="img/screenshot/icon3.png" alt="">
                         <h1>WHEN THE SUN</h1>
                         <p>Sometimes the simplest things are the hardest to find. So we created a new line for everyday life.Sometimes
                             the simplest</p>
                         <img class="ikonlar" src="img/screenshot/icons.png" alt="">
                     </div>
-                    <div class="col-md-5 image text-center">
-                        <img src="img/screenshot/SCREEN2.png" alt="">
-                        <span class="cloudy sunny">Sunny</span>
-                        <span class="number thirty">31</span>
+                    <div class="col-md-5 col-sm-12 image text-center">
+                        <div class="sunny">
+                            <img src="img/screenshot/SCREEN2.png" alt="">
+                        </div>
+
                     </div>
                 </div>
             </div>
             <div class="screen">
                 <div class="row">
 
-                    <div class="col-md-5 image">
-                        <img src="img/screenshot/SCREEN3.png" alt="">
-                        <span class="cloudy rainy">Rainy</span>
-                        <span class="number nine">9</span>
+                    <div class="col-md-5 col-sm-12 image">
+                        <div class="rainy">
+                            <img src="img/screenshot/SCREEN3.png" alt="">
+                        </div>
                     </div>
-                    <div class="col-md-7 content">
+                    <div class="col-md-7 col-sm-12 content">
                         <img src="img/screenshot/icon2.png" alt="">
                         <h1>WHEN THE RAIN</h1>
                         <p>Sometimes the simplest things are the hardest to find. So we created a new line for everyday life.Sometimes
@@ -230,7 +242,108 @@
         </div>
     </section>
 
+    <section class="Reviews" id="Reviews">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="main text-center">
+                        <h1>What people are saying</h1>
+                        <p>Reviews</p>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-6 col-sm-12">
+                    <div class="view">
+                        <h3>What art offers is space - a certain breathing room for the spirit</h3>
+                        <p>John Updike</p>
+                    </div>
+                </div>
+                <div class="col-md-6 col-sm-12">
+                    <div class="view">
+                        <h3>We do not see nature with our eyes, but with our understandings and our hearts</h3>
+                        <p>William Hazlitt</p>
+                    </div>
+                </div>
+                <div class="col-md-6 col-sm-12">
+                    <div class="view">
+                        <h3>The only courage that matters is the kind that gets you from one moment to the next</h3>
+                        <p>Mignon McLaughlin</p>
+                    </div>
+                </div>
+                <div class="col-md-6 col-sm-12">
+                    <div class="view">
+                        <h3>No man has a good enough memory to be a successful liar. </h3>
+                        <p>Abraham Lincoln</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="download" id="Download">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 col-sm-12 ">
+                    <div class="downloadapp">
+                        <h1>How Download the app?</h1>
+                        <p>Just download the app from the store. Simple, nice and user-friendly application of the weather.
+                            Only revelant and useful information</p>
+                            <a href=""><img src="img/appstore.png" alt=""></a>
+                            <a href=""><img src="img/googleplay.png" alt=""></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="end">
+        <i class="fa fa-angle-up scrollToTop" aria-hidden="true"></i>
+        <div class="head">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-3 col-sm-6 maintitle">
+                        <p>
+                            <span>FUN </span>WEATHER.</p>
+                    </div>
+                    <div class="col-md-6 col-sm-6 menu">
+                        <ul>
+                            <li>
+                                <a href="#Home">Home</a>
+                            </li>
+                            <li>
+                                <a href="#Features">Features</a>
+                            </li>
+                            <li>
+                                <a href="#Reviews">Reviews</a>
+                            </li>
+                            <li>
+                                <a href="#Download">Download</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col-md-3 col-sm-12  social">
+                        <ul>
+                            <li>
+                                <i class="fa fa-facebook" aria-hidden="true"></i>
+                            </li>
+                            <li>
+                                <i class="fa fa-instagram" aria-hidden="true"></i>
+                            </li>
+                            <li>
+                                <i class="fa fa-twitter" aria-hidden="true"></i>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
     <script src="js/jquery-3.2.1.min.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+    <script src="js/parallax.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js"></script>
     <script src="js/bootstrap.js"></script>
     <script src="js/script.js"></script>

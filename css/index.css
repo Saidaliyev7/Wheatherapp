@@ -1,123 +1,146 @@
+@charset "UTF-8";
 body {
   font-family: 'Ubuntu', sans-serif;
   background-image: url(../img/bodyBg/BG.png); }
 
-.header .bgimage {
-  width: 100%;
-  height: 100%;
-  position: absolute; }
-.header .head {
-  padding: 30px 0px; }
-  .header .head .maintitle p {
-    font-size: 24pt;
-    color: white;
-    font-weight: bold; }
-  .header .head .menu ul {
-    list-style: none; }
-    .header .head .menu ul li {
-      padding: 0px 15px;
-      font-size: 18pt;
-      display: inline-block; }
-      .header .head .menu ul li a {
-        text-decoration: none;
-        color: white; }
-  .header .head .social ul {
-    list-style: none; }
-    .header .head .social ul li {
-      display: inline-block; }
-      .header .head .social ul li i {
-        font-size: 24pt;
-        padding: 0px 15px;
-        color: white; }
-.header .HomeAbout img {
-  height: 80%; }
-.header .HomeAbout p {
-  color: white; }
-.header .HomeAbout .aboutAppYuxari {
-  font-size: 40pt; }
-.header .HomeAbout .aboutAppAwaqi {
-  font-size: 18pt; }
-.header .HomeAbout ul {
-  line-height: 111px;
-  list-style: none; }
-  .header .HomeAbout ul li {
-    padding-right: 10px;
-    display: inline-block; }
-    .header .HomeAbout ul li a {
-      text-decoration: none;
-      border: 1px solid #4466c9;
-      color: white;
-      padding: 12px 32px;
-      background-color: #4466c9;
-      border-radius: 3px;
-      transition: 0.2s ease; }
-      .header .HomeAbout ul li a:hover {
-        background-color: #fc6a42;
-        border-color: #fc6a42;
-        transition: 0.2s ease; }
-.header .HomeAbout .phoneAbout {
+.header {
   position: relative; }
-.header .HomeAbout span {
-  position: absolute;
-  border-radius: 50%;
-  font-size: 18pt;
-  color: white; }
-.header .HomeAbout .Sunny {
-  width: 90px;
-  height: 90px;
-  line-height: 90px;
-  border: 1px solid #fc6a42;
-  background-color: #fc6a42;
-  bottom: 44%;
-  left: 12%; }
-.header .HomeAbout .london {
-  border: 1px solid #4466c9;
-  background-color: #4466c9;
-  top: 35%;
-  right: 8%;
-  width: 117px;
-  height: 108px;
-  line-height: 108px; }
-.header .HomeAbout .rio {
-  color: #6e92f5;
-  width: 65px;
-  height: 65px;
-  line-height: 65px;
-  border: 1px solid #fcec64;
-  background-color: #fcec64;
-  bottom: 15%;
-  right: 16%; }
-.header .HomeAbout .nine {
-  color: #6e92f5;
-  width: 50px;
-  height: 50px;
-  line-height: 50px;
-  border: 1px solid white;
-  background-color: white;
-  top: 9%;
-  right: 22%; }
-  .header .HomeAbout .nine::before {
-    content: "";
+  .header .head {
+    padding: 30px 0px; }
+    .header .head .maintitle p {
+      font-size: 24pt;
+      color: white;
+      font-weight: bold; }
+    .header .head .menu ul {
+      list-style: none; }
+      .header .head .menu ul li {
+        padding: 0px 15px;
+        font-size: 18pt;
+        display: inline-block; }
+        .header .head .menu ul li a {
+          text-decoration: none;
+          color: #e1e1e1;
+          transition: 0.2s ease; }
+          .header .head .menu ul li a:hover {
+            color: white;
+            transition: 0.2s ease; }
+    .header .head .social ul {
+      list-style: none; }
+      .header .head .social ul li {
+        display: inline-block; }
+        .header .head .social ul li i {
+          font-size: 24pt;
+          padding: 0px 15px;
+          color: white; }
+  .header .HomeAbout img {
+    height: 70%; }
+  .header .HomeAbout .haqqinda {
+    padding: 90px 0px; }
+    .header .HomeAbout .haqqinda h1 {
+      font-size: 40pt;
+      color: white;
+      padding-bottom: 20px; }
+    .header .HomeAbout .haqqinda p {
+      font-size: 18pt;
+      color: white; }
+    .header .HomeAbout .haqqinda ul {
+      line-height: 111px;
+      list-style: none; }
+      .header .HomeAbout .haqqinda ul li {
+        padding-right: 10px;
+        display: inline-block; }
+        .header .HomeAbout .haqqinda ul li a {
+          text-decoration: none;
+          border: 1px solid #4466c9;
+          color: white;
+          padding: 12px 32px;
+          background-color: #4466c9;
+          border-radius: 3px;
+          transition: 0.2s ease; }
+          .header .HomeAbout .haqqinda ul li a:hover {
+            background-color: #fc6a42;
+            border-color: #fc6a42;
+            transition: 0.2s ease; }
+  .header .HomeAbout .phoneAbout {
+    position: relative;
+    padding-top: 100px; }
+  .header .HomeAbout span {
     position: absolute;
-    top: 19%;
-    left: 60%;
-    border: 2px solid blue;
-    color: white;
-    font-size: 10px;
-    border-radius: 50%; }
-.header .HomeAbout i {
-  position: absolute;
-  border: 1px solid white;
-  background-color: white;
-  border-radius: 50%;
-  font-size: 18pt;
-  bottom: 2%;
-  left: 10%;
-  width: 50px;
-  height: 50px;
-  line-height: 50px;
-  color: #fc6a42; }
+    border-radius: 50%;
+    font-size: 14pt;
+    color: white; }
+  .header .HomeAbout .Sunny {
+    width: 80px;
+    height: 80px;
+    line-height: 80px;
+    border: 1px solid #fc6a42;
+    background-color: #fc6a42;
+    bottom: 44%;
+    left: 17%; }
+  .header .HomeAbout .london {
+    border: 1px solid #4466c9;
+    background-color: #4466c9;
+    top: 35%;
+    right: 19%;
+    width: 100px;
+    height: 100px;
+    line-height: 100px; }
+  .header .HomeAbout .rio {
+    color: #6e92f5;
+    width: 65px;
+    height: 65px;
+    line-height: 65px;
+    border: 1px solid #fcec64;
+    background-color: #fcec64;
+    bottom: 24%;
+    right: 22%; }
+  .header .HomeAbout .nine {
+    color: #6e92f5;
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    border: 1px solid white;
+    background-color: white;
+    top: 9%;
+    right: 22%; }
+    .header .HomeAbout .nine::before {
+      content: "";
+      position: absolute;
+      top: 19%;
+      left: 60%;
+      border: 2px solid blue;
+      color: white;
+      font-size: 10px;
+      border-radius: 50%; }
+  .header .HomeAbout i {
+    position: absolute;
+    border: 1px solid white;
+    background-color: white;
+    border-radius: 50%;
+    font-size: 18pt;
+    bottom: 15%;
+    left: 10%;
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    color: #fc6a42; }
 
+@media screen and (max-width: 777px) {
+  h1 {
+    text-align: center; }
+
+  p {
+    text-align: center; }
+
+  ul {
+    text-align: center;
+    padding: 0px !important; }
+
+  .fa-angle-down {
+    left: 45% !important; }
+
+  .london {
+    right: 9% !important; } }
 .Features {
   padding: 100px 0px; }
   .Features .main {
@@ -130,7 +153,7 @@ body {
       color: #a6a6a6;
       font-size: 18pt; }
   .Features .content {
-    padding: 0px 30px; }
+    padding: 30px 0px; }
     .Features .content h3 {
       font-size: 18pt;
       font-weight: bold; }
@@ -139,51 +162,125 @@ body {
       color: #aeaeae; }
 
 .Widgets {
-  padding: 50px 0px; }
+  padding: 80px 0px; }
   .Widgets h1 {
     font-size: 36pt;
     font-weight: 600;
     color: #648cff; }
   .Widgets p {
     color: #a6a6a6;
-    font-size: 18pt; }
+    font-size: 18pt;
+    padding-bottom: 30px; }
 
+.screenshots .main h1 {
+  font-size: 36pt;
+  font-weight: 600;
+  color: #648cff; }
+.screenshots .main p {
+  color: #a6a6a6;
+  font-size: 18pt; }
 .screenshots .screen {
   padding: 100px 0px; }
-  .screenshots .screen .image img {
+  .screenshots .screen .image .cloud {
+    width: 70%;
     position: relative; }
-  .screenshots .screen .image span {
-    position: absolute;
-    border-radius: 50%;
-    font-size: 18pt;
-    color: white; }
-  .screenshots .screen .image .cloudy {
-    background-color: #fcec64;
-    width: 100px;
-    height: 100px;
-    line-height: 100px;
-    text-align: center;
-    top: 27%;
-    right: 27%; }
-  .screenshots .screen .image .number {
-    background-color: #6ca3ff;
-    width: 100px;
-    height: 100px;
-    line-height: 100px;
-    text-align: center;
-    bottom: 20%;
-    left: -10%; }
+    .screenshots .screen .image .cloud img {
+      width: 100%;
+      height: 100%; }
+    .screenshots .screen .image .cloud::before {
+      content: "Cloudy";
+      background-color: #fcec64;
+      width: 100px;
+      height: 100px;
+      line-height: 100px;
+      text-align: center;
+      top: 27%;
+      right: -22%;
+      position: absolute;
+      border-radius: 50%;
+      font-size: 18pt;
+      color: white;
+      z-index: 5; }
+    .screenshots .screen .image .cloud::after {
+      position: absolute;
+      content: "15";
+      background-color: #6ca3ff;
+      width: 100px;
+      height: 100px;
+      line-height: 100px;
+      text-align: center;
+      bottom: 20%;
+      border-radius: 50%;
+      font-size: 18pt;
+      left: -10%;
+      color: white; }
   .screenshots .screen .image .sunny {
-    background-color: #f2a14e;
-    right: 10%; }
-  .screenshots .screen .image .thirty {
-    background-color: #fc6a42;
-    left: 8%; }
+    width: 70%;
+    position: relative; }
+    .screenshots .screen .image .sunny img {
+      width: 100%;
+      height: 100%; }
+    .screenshots .screen .image .sunny::before {
+      content: "Sunny";
+      background-color: #f2a14e;
+      width: 100px;
+      height: 100px;
+      line-height: 100px;
+      text-align: center;
+      top: 27%;
+      right: -22%;
+      position: absolute;
+      border-radius: 50%;
+      font-size: 18pt;
+      color: white;
+      z-index: 5; }
+    .screenshots .screen .image .sunny::after {
+      position: absolute;
+      content: "31";
+      background-color: #fc6a42;
+      width: 100px;
+      height: 100px;
+      line-height: 100px;
+      text-align: center;
+      bottom: 20%;
+      border-radius: 50%;
+      font-size: 18pt;
+      left: -10%;
+      color: white; }
   .screenshots .screen .image .rainy {
-    background-color: #b8faee;
-    color: #8da9aa; }
-  .screenshots .screen .image .nine {
-    background-color: #7693c8; }
+    width: 70%;
+    position: relative; }
+    .screenshots .screen .image .rainy img {
+      width: 100%;
+      height: 100%; }
+    .screenshots .screen .image .rainy::before {
+      content: "Rainy";
+      width: 100px;
+      height: 100px;
+      line-height: 100px;
+      text-align: center;
+      top: 27%;
+      right: -22%;
+      position: absolute;
+      border-radius: 50%;
+      font-size: 18pt;
+      color: white;
+      z-index: 5;
+      background-color: #b8faee;
+      color: #8da9aa; }
+    .screenshots .screen .image .rainy::after {
+      position: absolute;
+      content: "31";
+      background-color: #7693c8;
+      width: 100px;
+      height: 100px;
+      line-height: 100px;
+      text-align: center;
+      bottom: 20%;
+      border-radius: 50%;
+      font-size: 18pt;
+      left: -10%;
+      color: white; }
   .screenshots .screen .content img {
     padding: 65px 20px; }
   .screenshots .screen .content h1 {
@@ -194,5 +291,103 @@ body {
     font-size: 24pt; }
   .screenshots .screen .content .ikonlar {
     padding: 40px 20px; }
+
+.Reviews {
+  padding: 50px 0px; }
+  .Reviews .main {
+    padding-bottom: 100px; }
+    .Reviews .main h1 {
+      font-size: 36pt;
+      font-weight: 600;
+      color: #648cff; }
+    .Reviews .main p {
+      color: #a6a6a6;
+      font-size: 18pt; }
+  .Reviews .view {
+    padding: 100px 50px; }
+    .Reviews .view::before {
+      content: "“";
+      position: absolute;
+      top: -10%;
+      left: 10%;
+      font-size: 140pt;
+      color: #648cff; }
+    .Reviews .view::after {
+      content: "“";
+      position: absolute;
+      bottom: 0%;
+      right: 16%;
+      font-size: 140pt;
+      color: #648cff;
+      transform: rotate(180deg); }
+    .Reviews .view h3 {
+      font-size: 21pt;
+      position: relative;
+      color: #353854; }
+    .Reviews .view p {
+      font-size: 18pt;
+      color: #686a7f; }
+
+@media screen and (max-width: 777px) {
+  .content {
+    text-align: center; } }
+.download {
+  background-image: url(../img/download/bg.png);
+  background-size: cover; }
+  .download .downloadapp {
+    padding: 100px 0px; }
+    .download .downloadapp h1 {
+      color: #ffffff;
+      padding-bottom: 30px;
+      font-size: 31pt;
+      font-weight: bold; }
+    .download .downloadapp p {
+      font-size: 14pt;
+      color: #ffffff; }
+
+.end {
+  position: relative;
+  background-image: url(../img/bg.png); }
+  .end .head {
+    padding: 100px 0px; }
+    .end .head .maintitle p {
+      font-size: 24pt;
+      color: #648cff;
+      font-weight: bold; }
+      .end .head .maintitle p span {
+        color: #fc6a42; }
+    .end .head .menu ul {
+      list-style: none; }
+      .end .head .menu ul li {
+        padding: 0px 15px;
+        font-size: 18pt;
+        display: inline-block; }
+        .end .head .menu ul li a {
+          text-decoration: none;
+          color: #9596ab;
+          transition: 0.2s ease; }
+          .end .head .menu ul li a:hover {
+            color: white;
+            transition: 0.2s ease; }
+    .end .head .social ul {
+      list-style: none; }
+      .end .head .social ul li {
+        display: inline-block; }
+        .end .head .social ul li i {
+          cursor: pointer;
+          font-size: 24pt;
+          padding: 0px 15px;
+          color: #b5b5c8;
+          transition: 0.2s ease; }
+          .end .head .social ul li i:hover {
+            color: white;
+            transition: 0.2s ease; }
+
+@media screen and (max-width: 575px) {
+  p {
+    text-align: center; }
+
+  .social {
+    text-align: center; } }
 
 /*# sourceMappingURL=index.css.map */

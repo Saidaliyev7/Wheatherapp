@@ -1,0 +1,53 @@
+.Reviews {
+    padding: 50px 0px;
+    .main {
+        padding-bottom: 100px;
+        h1 {
+            font-size: 36pt;
+            font-weight: 600;
+            color: #648cff;
+        }
+        p {
+            color: #a6a6a6;
+            font-size: 18pt;
+        }
+    }
+    .view {
+        padding: 100px 50px; 
+        &::before{
+            content: "“";
+            position: absolute;
+            top: -10%;
+            left: 10%;
+            font-size: 140pt;
+            color: #648cff;
+
+        }
+        &::after {
+            content: "“";
+            position: absolute;
+            bottom: 0%;
+            right: 16%;
+            font-size: 140pt;
+            color: #648cff;
+            transform: rotate(180deg);
+        }
+        h3{
+            font-size: 21pt;
+            position: relative;
+            color: #353854;
+        
+        }
+        p {
+            font-size: 18pt;
+            color: #686a7f;
+        }
+    }
+}
+@media screen and (max-width:777px) {
+    .content {
+        text-align: center;
+    }
+    
+   }
+   
